@@ -1,74 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Single Page CV</title>
-  <link rel="shortcut icon" href="rh.png">
-  <meta name="description" content="Membuat CV Sederhana dengan HTML.">
-  <meta name="keywords" content="Semantic HTML, SEO Meta Tags, Favicon">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta charset="UTF-8">
-  </head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic HTML Website</title>
+ </head>
 <body>
-      <main style="border: 3px solid #000; margin: 20px; padding: 30px; width: 700px; height: 1100px;font-family: Helvetica;">
-      <hr style="border: 1pt solid black; margin-right: 25%">
-  <h1> Dadang Destari Putra</h1>
-    <h2 style="font-size: 24px; color: darkgreen;">Fullstack Web Developer</h2>
-      <address>
-      Jl. Jeddah No. 38 RT.01/RW.03 <br>
-      Menjelang-Mentok-Bangka Barat <br>
-      Kepulauan Bangka Belitung <br>
-      33313
-  </address>
-<section>
-  <h2 style="font-size: 20px; color: darkgreen;">Skills</h2>
-  <p>
-      HTML, CSS, JavaScript, Accessibility, WordPress, Figma to Design, Responsive Web Design, <br>
-      Technical Writing, Presentations 
-  </p>
-  <h2 style="font-size: 20px; color: darkgreen;">Education</h2>
-    <b><p><span style="color: blue;">Padjadjaran University, Bachelor of Physical Sciences</span></b><br>
-      August 1997 to February 2002 <br>
-      I focused on studying Geophysics Engineering allowing me to "see" into the Earth without <br>
-      having to dig. I can study rock structures, search for natural resources, and understand <br>
-      geological processes using methods such as seismic, gravity, geoelectric and magnetics. <br>
-  </p>
-  <p>
-    <b><p><span style="color: blue;">Sangga Buana University, Bachelor Civil Engineering</span></b><br>
-      September 2012 to September 2016 <br>
-      Technical skills: Structural calculations, design and project management. <br>
-      Soft skills: Communication, leadership, and teamwork. <br>
-      Problem solving skills: Anbuka kamualyze complex problems and find innovative solutions. <br>
-  </p>
-  <p>
-    <b><p><span style="color: blue;">KelasFullstack.id (Non Formal Education), Fullstack Web Developer</span></b><br>
-      May 2018 to September 2018 <br>
-      Learn everything about coding for web development <br>
-</section>
-  <h2 style="font-size: 20px; color: darkgreen;">Experience</h2>
-
-      <b><p><span style="color: blue;">EIS Group, CA - Frontend Engineer</span></b><br>
-      Desember 2018 to January 2020 <br>
-      <li>Delivering pixel-perfect implementations using React and TypeScript.<br></li>
-      <li>Collaborating with designers, backend engineers, and delivery managers <br>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;to size and scope work. </li>
-      <li>Create training materials and conduct training sessions to onboard new team members.<br></li>
-      Skills: React, TypeScript, Jira, Figma, Design Systems, Enterprise Software <br>
-  </p>
-  <p>
-    <b><p><span style="color: blue;">Banyan Labs & Persevere, TN - Lead Instructor & Developer</span></b><br>
-      March 2020 to February 2022 <br>
-      <li>Delivering pixel-perfect implementations using React and TypeScript.<br></li> 
-      <li>Collaborating with designers, backend engineers, and delivery managers <br>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;to size and scope work. </li>
-      <li>Create training materials and conduct training sessions to onboard new team members.<br></li>
-      Skills: React, TypeScript, Jira, Figma, Design Systems, Enterprise Software
-  </p>
-  <h2 style="font-size: 20px; color: darkgreen;">Accros the internet</h2>
-  <a href="https://github.com/destriegyta/Single-Page-CV">View on GitHub</a><br>
-  <a href="https://www.linkedin.com/in/dadang-destari-putra-b98688218/">View on LinkedIn</a><br>
-    </main>
-  <footer>
-    <p>&copy; 2024 My Website "destriegyta"</p>
-  </footer>
-</body>
-</html>
+<table>
+   
+    <thead>
+        <tr>            
+        <td><img src="aset/logo1.png" alt="Logo" width="40px" height="40"></td>  
+        <td><b>Dadang Destari Putra</b></td>
+        <th>
+            <nav>
+            <a href="#">Home</a>
+            <a href="#">Project</a>
+            <a href="#">Artikel</a>
+            <a href="#">Contact</a>
+            </nav> 
+        </th>            
+        </tr>                            
+        <tr>
+        <td 
+        colspan="6"; style="text-align: center;"><b>Frontend Developer</b><br>
+        HTML only with proper layout, no styling
+        </td>
+        </tr>          
+    </thead>      
+        <!-- Batas thead -->
+    <tbody>
+        <tr>
+         <td><b>Project</b></td>
+         <td><b>Work Experience</b></td>
+         <td><b>Education</b></td>
+         </tr> 
+        <tr>
+            <td>
+                <P align="left" valign="top">HTML Only Portofolio</P>
+            </td>
+            <td rowspan="3">
+                <P>roadmap.sh</P>
+                <p>Solved all the fonted Project</p>
+                <p><a href="My Profile">Visit My Profile</a></p>                
+            </td>
+            <td rowspan="5">
+                <P>Graduated With Satisfied Point <br>
+                Won acme hackaton.<br>
+                Organizes 30 session</P>
+                <P>Course I Took</p>
+                -&nbsp;&nbsp;Object Oriented Programming<br>
+                -&nbsp;&nbsp;Data Structures and Algorithms<br>
+                -&nbsp;&nbsp;Web Engineering<br>
+                -&nbsp;&nbsp;Artificial Intelligence<br>
+                -&nbsp;&nbsp;Human Computer Interaction<br>
+                -&nbsp;&nbsp;Computer Graphics<br>
+                -&nbsp;&nbsp;Database Mangement Systems<br>
+                -&nbsp;&nbsp;Distributed Database Systems<br>
+                -&nbsp;&nbsp;Discreet Mathematics<br>                                 
+            </td>                                                     
+        </tr>
+        <tr>
+            <td align="left" valign="top"> Calculator</td>                                          
+        </tr>
+        <tr>
+            <td align="left" valign="top">Quiz Apps</td>                                                                                                       
+        </tr>
+        <tr>
+            <td align="left" valign="top">Count Down Timer</td>
+            <td align="left" valign="top"><b>Open Source Work</b></td>
+        </tr>
+        <tr>
+            <td align="left" valign="top">Produce Up Coming Project</td>
+            <td align="left" valign="top">Contributed to 50 opensource <br>
+            project. Made my own Project <br>
+            with 200 Github Stars
+            <p><a href="My Profile">Visit My GitHub Profile</a></p>
+            </td>                                                     
+        </tr>           
+    </tbody>
+    <!-- Batas tbody -->
+     <tfoot>
+        <tr> 
+            <td>Review From My Teacher</td>
+        </tr>
+        <tr>
+            <td style="text-align: center;"> Anak yang pintar <br>
+                Codepolitan Babi
+            </td>
+            <td style="text-align: center;">Malu Betanya sesat dijalan <br>
+                Codepolitan Babi
+            </td>
+            <td style="text-align: center;">Google Gemini Lebih Pintar <br>
+                Codepolitan Babi
+            </td>
+        </tr>
+<tr>
+    <th colspan="6"; style="text-align: center;"> &copy; 2023 Your Company Name</th>
+</tr>
+     </tfoot>    
+</table>  
+</body> 
+ </html>
